@@ -1,171 +1,175 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Vaishnavi Chouhan | SDET Portfolio</title>
-
+<title>Vaishnavi Chouhan | SDET Automation Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=JetBrains+Mono:wght@300;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<div class="background-grid"></div>
+<div class="grid-bg"></div>
 
 <header>
-
 <h1>VAISHNAVI CHOUHAN</h1>
+<p class="subtitle">QA Automation Engineer • Python • API Testing • Azure Cloud</p>
 
-<p class="subtitle">
-QA Automation Engineer • Python • API Testing • Azure Cloud
-</p>
-
-<div class="cta">
-
-<a href="mailto:vaishnavichouhan465@gmail.com" class="btn">
-Contact
-</a>
-
-<a href="https://linkedin.com/in/vaishnavi-chouhan" class="btn">
-LinkedIn
-</a>
-
+<div class="header-buttons">
+<a href="mailto:vaishnavichouhan465@gmail.com" class="btn">Contact</a>
+<a href="https://linkedin.com/in/vaishnavi-chouhan" class="btn">LinkedIn</a>
 </div>
-
 </header>
 
-<section class="terminal">
+<section>
+<h2>Automation Command Center</h2>
 
-<h2>Automation Pipeline Status</h2>
+<div class="dashboard">
 
-<div class="terminal-box">
-
-<p>> Initializing test environment...</p>
-<p class="green">✔ Test Framework Loaded</p>
-<p class="green">✔ API Tests Executed</p>
-<p class="green">✔ Microservice Validation Passed</p>
-<p class="green">✔ CI/CD Pipeline Successful</p>
-<p class="green">✔ Build Status: GREEN</p>
-
+<div class="panel">
+<h3>CI/CD Pipeline</h3>
+<div class="pipeline">
+<div class="stage success">Build</div>
+<div class="stage success">Unit Tests</div>
+<div class="stage success">API Tests</div>
+<div class="stage success">Performance</div>
+<div class="stage success">Deploy</div>
+</div>
 </div>
 
+<div class="panel">
+<h3>Live Test Execution</h3>
+<div class="terminal" id="terminal"></div>
+</div>
+
+</div>
 </section>
 
-<section class="about">
+<section>
+<h2>Automation Impact</h2>
 
-<h2>About Me</h2>
-
-<p>
-Performance-driven QA Automation Engineer with experience in building
-automation frameworks for microservices and cloud systems.
-Specialized in API testing, CI/CD automation and scalable testing strategies.
-</p>
-
+<div class="metrics">
+<div class="metric"><h3>90%</h3><p>Manual Testing Reduced</p></div>
+<div class="metric"><h3>576</h3><p>QA Hours Saved / Year</p></div>
+<div class="metric"><h3>25+</h3><p>Microservices Tested</p></div>
+<div class="metric"><h3>27/30</h3><p>Stable Green Builds</p></div>
+</div>
 </section>
 
-<section class="skills">
-
+<section>
 <h2>Testing Stack</h2>
 
-<div class="skill-grid">
+<div class="skills">
 
 <div class="card">
 <h3>Automation</h3>
-<p>Python</p>
-<p>Pytest</p>
-<p>Robot Framework</p>
-<p>Selenium</p>
+<ul>
+<li>Python</li>
+<li>Pytest</li>
+<li>Robot Framework</li>
+<li>Selenium</li>
+<li>Playwright</li>
+</ul>
 </div>
 
 <div class="card">
 <h3>API Testing</h3>
-<p>Postman</p>
-<p>Swagger</p>
-<p>Microservices Testing</p>
+<ul>
+<li>Postman</li>
+<li>Swagger</li>
+<li>REST APIs</li>
+<li>Microservices</li>
+</ul>
 </div>
 
 <div class="card">
 <h3>Cloud</h3>
-<p>Azure</p>
-<p>IoT Hub</p>
-<p>Kubernetes</p>
+<ul>
+<li>Azure</li>
+<li>Kubernetes</li>
+<li>IoT Hub</li>
+<li>Service Bus</li>
+</ul>
 </div>
 
 <div class="card">
 <h3>Performance</h3>
-<p>JMeter</p>
-<p>Load Testing</p>
-<p>System Reliability</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="experience">
-
-<h2>Professional Experience</h2>
-
-<div class="exp-card">
-
-<h3>Eaton</h3>
-
-<p class="role">
-Associate Engineer • 2023 – Present
-</p>
-
 <ul>
-
-<li>Built Python Pytest automation framework for REST APIs</li>
-<li>Reduced manual testing effort by 90%</li>
-<li>Integrated automated testing into Azure DevOps pipelines</li>
-<li>Designed microservices validation strategies</li>
-<li>Performed performance testing using JMeter</li>
-
+<li>JMeter</li>
+<li>Load Testing</li>
+<li>System Reliability</li>
 </ul>
+</div>
 
+</div>
+</section>
+
+<section>
+<h2>Test Case Visualizer</h2>
+
+<div class="testcases">
+<div class="test pass">Login API Test ✔</div>
+<div class="test pass">Device Provisioning Test ✔</div>
+<div class="test pass">Telemetry Pipeline Test ✔</div>
+<div class="test pass">Database Validation ✔</div>
+<div class="test pass">Service Bus Integration ✔</div>
 </div>
 
 </section>
 
-<section class="projects">
+<section>
+<h2>Microservices Architecture</h2>
 
-<h2>Automation Impact</h2>
-
-<div class="metrics">
-
-<div class="metric">
-<h3>90%</h3>
-<p>Manual Testing Reduced</p>
+<div class="architecture">
+<div>Device</div>
+<div>IoT Hub</div>
+<div>Service Bus</div>
+<div>Microservice APIs</div>
+<div>Database</div>
+<div>Analytics</div>
 </div>
 
-<div class="metric">
-<h3>576</h3>
-<p>QA Hours Saved / Year</p>
+</section>
+
+<section>
+<h2>Automation Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>API Automation Framework</h3>
+<p>Python Pytest framework for microservices testing integrated with CI/CD.</p>
 </div>
 
-<div class="metric">
-<h3>25+</h3>
-<p>Microservices Tested</p>
+<div class="project">
+<h3>Microservice E2E Testing</h3>
+<p>End‑to‑end validation for IoT platform covering 25+ services.</p>
 </div>
 
-<div class="metric">
-<h3>27/30</h3>
-<p>Stable Green Builds</p>
+<div class="project">
+<h3>Performance Testing Suite</h3>
+<p>JMeter test suite validating scalability of cloud microservices.</p>
+</div>
+
+<div class="project">
+<h3>QA Metrics Dashboard</h3>
+<p>Power BI reporting system for automation coverage and quality metrics.</p>
 </div>
 
 </div>
+</section>
 
+<section>
+<h2>GitHub</h2>
+<div class="github">
+<p>Explore my automation repositories.</p>
+<a href="https://github.com/vaish2508" class="btn">View GitHub</a>
+</div>
 </section>
 
 <footer>
-
 <p>© 2026 Vaishnavi Chouhan • QA Automation Engineer</p>
-
 </footer>
 
 <script src="script.js"></script>
